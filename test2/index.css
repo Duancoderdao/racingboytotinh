@@ -1,0 +1,69 @@
+.contain {
+    width:700px;
+    height:700px;
+    margin: 0 auto;
+    background-color: rgb(199, 84, 138);
+  position: relative;
+}
+.text-name
+{
+    
+   width:100%;
+   height:100px;
+   text-align:center;
+   padding-top: 20px;
+   font-size:2rem;
+    
+}
+
+
+
+.btn
+{
+    width:60px;
+    height: 60px;
+    border-radius: 50px;
+    position: relative;
+    left: 43%;
+    top: -10%;
+    z-index: 8;
+}
+.btn:hover{
+    background-color: rgb(144, 98, 98);
+}
+@keyframes running {
+    from {
+        background-color: red;
+    } 
+    to {
+        background-color:blue;
+    }
+}
+.text-shot {
+    width: 50%;
+    font-size: 1.8rem;
+    text-align: center;
+    margin:0 auto;
+
+    display: none;
+    z-index: 2;
+}
+.text-shot.active {
+    display: block;
+}
+
+.img
+{
+   
+        width: 35%;
+        height: 50%;
+        position: absolute;
+        top: 46%;
+        left: 32%;
+        border-radius: 10px;
+        display: none;
+}
+
+.img.active {
+    display: block;
+}
